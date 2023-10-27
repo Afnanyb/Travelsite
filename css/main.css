@@ -6,26 +6,32 @@
   font-family: Verdana;
 }
 body {
-  display: block;
+  display: inline-block;
   margin: 0;
   padding: 0.5rem;
 }
 
+/* Navigation bar container */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  top: 0;
   width: 100%;
   background-color: #ffffff;
+  z-index: 5;
 }
 
+/* Site name on the top left of nav bar */
 .navbar__site--name {
   margin-left: 150px;
-  margin-top: 40px;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
   font-size: 22px;
 }
 
+/* navigation page links */
 .navbar__list {
   display: flex;
   list-style: none;
@@ -36,21 +42,25 @@ body {
 
 .navbar__item {
   margin-right: 50px;
-  margin-top: 20px;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 .navbar__link {
   text-decoration: none;
 }
 
+/* Hero section container */
 .hero {
   background-color: #fefaf5;
   margin-top: 20px;
   padding-top: 20px;
   text-align: left;
   display: flex;
+
   flex-direction: row;
 }
 
+/* container for the hero section content */
 .hero__content {
   margin: 300px 150px;
 }
@@ -58,7 +68,7 @@ body {
 .hero__slogan {
   color: #335576;
   margin-bottom: 20px;
-  font-size: 80px;
+  font-size: 60px;
 }
 
 .hero__copy {
@@ -68,7 +78,7 @@ body {
 .hero__button {
   background-color: #db7a4e;
   margin-top: 40px;
-  padding: 10px 20px;
+  padding: 15px 25px;
   color: #ffffff;
   border-radius: 1.5rem;
   border-color: #db7a4e;
@@ -79,34 +89,73 @@ body {
   justify-content: right;
   position: float-right;
   margin-left: auto;
-  width: 400px;
+  position: relative;
+  position: left 9rem;
+  width: 20%;
+  height: 20%;
 }
-
 .navbar__link--active {
   text-decoration: underline;
   text-underline-offset: 4px;
   color: #db7a4e;
 }
 .recos {
-  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   padding-top: 40px;
   margin-top: 60px;
   margin-left: 80px;
 }
-.recos__tittle {
-  margin-top: 40px;
+.recos__title {
+  margin-top: 5px;
+  position: relative;
+  top: -10px;
 }
-.recos__cards {
-  border-radius: 5px;
-  display: flex;
+
+.destinations {
+}
+
+.cards {
   justify-content: space-between;
-  margin-top: 20px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
-  width: 400px;
-  height: 600px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
-.recos__cards--places {
-  justify-items: center;
+
+.hawaii__card {
+  background: url("../assets/Images/hawaii.jpg");
+  background-size: cover;
+  width: 400px;
+  height: 500px;
+  border-radius: 5px;
+  justify-content: space-between;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.iceland__card {
+  background: url("../assets/Images/iceland.jpg");
+  background-size: cover;
+  width: 400px;
+  height: 500px;
+  border-radius: 5px;
+  justify-content: space-between;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.greece__card {
+  background: url("../assets/Images/greece.jpg");
+  background-size: cover;
+  width: 400px;
+  height: 500px;
+  border-radius: 5px;
+  justify-content: space-between;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .footer {
@@ -119,6 +168,13 @@ body {
 }
 
 .footer__titles {
-  margin-top: 80px;
-  justify-content: space-around;
+  color: #335576;
+}
+
+.footer__subtitles {
+  color: #db7a4e;
+}
+
+.footer__content {
+  text-align: left;
 }
