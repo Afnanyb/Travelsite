@@ -1,16 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Hawaii</title>
     <link href="../css/global.css" rel="stylesheet" />
     <link href="../css/destination.css" rel="stylesheet" />
+    <link href="../css/main.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <title>Hawaii</title>
   </head>
+  <body>
+    <nav class="nav-bar">
+      <h3 class="nav-bar__site-name">Travel Site</h3>
+      
+      
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a href="./index.html" class="navbar__link">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./pages/hawaii.html" class="navbar__link navbar__link--active"> Hawaii</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./pages/iceland.html" class="navbar__link"> Iceland</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./pages/greece.html" class="navbar__link"> Greece</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-  <body></body>
+    <section class="hero hero__image hero__hawaii">
+      <h1>Hawaii</h1>
+      <div class="hero__cards"> 
+        <div class="hero__card">  
+          <h2>Friday</h2>
+          <ul> 
+            <li> Breakfast</li>
+            <li> Lunch</li>
+            <li> Dinner</li>
+            <li> Snorkeling</li>
+          </ul>
+        </div>
+        <div class="hero__card">  
+          <h2>Saturday</h2>
+          <ul> 
+            <li> Breakfast</li>
+            <li> Lunch</li>
+            <li> Dinner</li>
+            <li> Snorkeling</li>
+          </ul>
+        </div>
+        <div class="hero__card">  
+          <h2>Sunday</h2>
+          <ul> 
+            <li> Breakfast</li>
+            <li> Lunch</li>
+            <li> Dinner</li>
+            <li> Snorkeling</li>
+          </ul>
+        </div>
+    </section>
+    <footer class="footer">
+      <!-- breaking footer into columns -->
+      <div class="footer__sec">
+        <h1>Contact</h1>
+        <p class="footer__sec--content">EMAIL<span class="footer__sec--content-span"><br><br>info@travelsite.com</span></p>
+      </div>
+      <div class="footer__sec">
+        <h1>Hours</h1>
+        <!-- multiple columns for the content in this column -->
+        <div class="footer__sec--days">
+          <p class="footer__sec--content">MONDAY - FRIDAY<span class="footer__sec--content-span"><br><br>9:00 AM - 5:00 PM</span></p>
+        </div>
+        <div class="footer__sec--days">
+          <p class="footer__sec--content">SATURDAY<span class="footer__sec--content-span"><br><br>10:00 AM - 4:00 PM</span></p>
+        </div>
+        <div class="footer__sec--days">
+          <p class="footer__sec--content">SUNDAY<span class="footer__sec--content-span"><br><br>CLOSED</span></p>
+        </div>
+      </div>
+      <div class="footer__sec">
+        <h1>Social</h1>
+        <ul class="footer__sec--social__list">
+          <li></li><a href="link-to-your-instagram-page">
+            <img class="footer__sec--social__logo" src="../assets/Icons/icon-instagram.png" alt="Instagram Logo"/>
+          </a></li>
+          <li><a href="link-to-your-facebook-page">
+            <img class="footer__sec--social__logo" src="../assets/Icons/icon-facebook.png" alt="Facebook Logo"/>
+          </a></li>
+          <li></li><a href="link-to-your-twitter-page">
+            <img class="footer__sec--social__logo" src="../assets/Icons/icon-twitter.png" alt="Twitter Logo"/>
+          </a></li>
+      </ul>
+      </div>
+    </footer>
+    
+  </body>
 </html>
