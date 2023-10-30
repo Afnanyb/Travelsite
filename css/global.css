@@ -57,9 +57,9 @@ body {
   background-color: #fefaf5;;
   display: flex;
   justify-content: center;
-  justify-content: space-between;
-  margin: 2rem;
-  padding-top: 12px;
+  
+  margin-top: 2rem;
+  padding: 12px;
  
   color: #335576;
 }
@@ -67,10 +67,15 @@ body {
 .footer__sec {
   justify-content: center;
   padding: 0;
+  font-size: 13px;
+  font-weight: 70px;
+  margin-top: 0px;
 }
 .footer__sec--content {
   color: #db7a4e;
   height: 10rem;
+
+  margin-right: 30px;
   padding: 10px 5px 0px 0px;
   justify-content: center;
 }
@@ -86,8 +91,8 @@ body {
   display: flex;
 }
 .footer__sec--social__logo {
-  margin-right: 50px;
+  margin-right: 40px;
   margin-top: 30px;
-  height: 30px;
+  height: 20px;
   align-items: flex-start;
 }

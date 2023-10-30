@@ -15,6 +15,20 @@ body {
   padding-top: 200px;
   padding-bottom: 120px;
 }
+.hero__greece {
+  background-image: url("../assets/Images/greece.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 120px;
+}
+.hero__iceland {
+  background-image: url("../assets/Images/iceland.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 120px;
+}
 
 .hero__image {
   object-fit: contain;
@@ -42,7 +56,7 @@ body {
   background-color: white;
   padding: 0px 10px 20px;
   width: 260px;
-  height: 400px;
+  height: 380px;
   border-radius: 5px;
   text-align: center;
   margin: 20px;
@@ -72,7 +86,7 @@ h2 {
 
 ul {
   display: block;
-  margin-block-start: 1em;
+  margin-block-start: 0.5rem;
   margin-block-end: 1em;
   padding: 40px;
 }
@@ -82,9 +96,9 @@ ul {
   display: flex;
   align-items: center;
   flex-direction: row;
-  height: 30px;
+  height: 40px;
   justify-content: center;
   text-align: center;
-  border-radius: 2px;
+  border-radius: 4px;
   margin-bottom: 18px;
 }
